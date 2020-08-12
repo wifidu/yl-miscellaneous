@@ -1,0 +1,5 @@
+2020-01-14_12:46:54.78836 time="2020-01-14T12:46:54Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:777"
+2020-01-14_12:46:54.78843 time="2020-01-14T12:46:54Z" level=error msg="Error opening connection to database (user=gitlab-psql%20host=/var/opt/gitlab/postgresql%20database=postgres): dial unix /var/opt/gitlab/postgresql/.s.PGSQL.5432: connect: connection refused" source="postgres_exporter.go:1336"
+2020-01-14_12:46:54.78844 time="2020-01-14T12:46:54Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1437"
+2020-01-14_12:47:25.48587 time="2020-01-14T12:47:25Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:777"
+2020-01-14_12:47:25.52802 time="2020-01-14T12:47:25Z" level=info msg="Semantic Version Changed on \"/var/opt/gitlab/postgresql:5432\": 0.0.0 -> 10.9.0" source="postgres_exporter.go:1229"

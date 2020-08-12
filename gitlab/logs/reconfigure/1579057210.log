@@ -1,0 +1,9 @@
+# Logfile created on 2020-01-15 11:00:10 +0800 by logger.rb/56438
+[2020-01-15T11:00:10+08:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /opt/gitlab/embedded
+  One version per cookbook
+
+[2020-01-15T11:00:10+08:00] INFO: *** Chef 13.6.4 ***
+[2020-01-15T11:00:10+08:00] INFO: Platform: x86_64-linux
+[2020-01-15T11:00:10+08:00] INFO: Chef-client pid: 23
+[2020-01-15T11:00:10+08:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2020-01-15T11:00:10+08:00] WARN: Plugin Network: unable to detect ipaddress

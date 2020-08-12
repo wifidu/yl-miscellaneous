@@ -1,0 +1,16 @@
+I, [2020-01-15T03:33:32.907431 #476]  INFO -- : reaped #<Process::Status: pid 799 exit 0> worker=0
+I, [2020-01-15T03:33:32.908903 #476]  INFO -- : reaped #<Process::Status: pid 1000 exit 0> worker=1
+I, [2020-01-15T03:33:32.911686 #476]  INFO -- : master complete
+I, [2020-01-20T04:20:07.621187 #384]  INFO -- : Refreshing Gem list
+I, [2020-01-20T04:23:25.668283 #384]  INFO -- : listening on addr=127.0.0.1:8080 fd=18
+I, [2020-01-20T04:23:25.670768 #384]  INFO -- : unlinking existing socket=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+I, [2020-01-20T04:23:25.670915 #384]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=19
+I, [2020-01-20T04:23:26.103779 #384]  INFO -- : master process ready
+I, [2020-01-20T04:23:26.835352 #711]  INFO -- : worker=1 ready
+I, [2020-01-20T04:23:26.830106 #710]  INFO -- : worker=0 ready
+E, [2020-01-20T04:24:34.729789 #384] ERROR -- : worker=1 PID:711 timeout (61s > 60s), killing
+E, [2020-01-20T04:24:34.920944 #384] ERROR -- : reaped #<Process::Status: pid 711 SIGKILL (signal 9)> worker=1
+I, [2020-01-20T04:24:35.527244 #779]  INFO -- : worker=1 ready
+E, [2020-01-20T04:27:06.619232 #384] ERROR -- : worker=0 PID:710 timeout (61s > 60s), killing
+E, [2020-01-20T04:27:06.818779 #384] ERROR -- : reaped #<Process::Status: pid 710 SIGKILL (signal 9)> worker=0
+I, [2020-01-20T04:27:07.726214 #926]  INFO -- : worker=0 ready

@@ -1,0 +1,74 @@
+# Logfile created on 2020-01-20 04:19:50 +0000 by logger.rb/66358
+[2020-01-20T04:19:50+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /opt/gitlab/embedded
+  One version per cookbook
+
+[2020-01-20T04:19:50+00:00] INFO: *** Chef 14.13.11 ***
+[2020-01-20T04:19:50+00:00] INFO: Platform: x86_64-linux
+[2020-01-20T04:19:50+00:00] INFO: Chef-client pid: 25
+[2020-01-20T04:19:50+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2020-01-20T04:19:50+00:00] WARN: Plugin Network: unable to detect ipaddress
+[2020-01-20T04:19:52+00:00] INFO: Setting the run_list to ["recipe[gitlab]"] from CLI options
+[2020-01-20T04:19:52+00:00] INFO: Run List is [recipe[gitlab]]
+[2020-01-20T04:19:52+00:00] INFO: Run List expands to [gitlab]
+[2020-01-20T04:19:52+00:00] INFO: Starting Chef Run for 3363b8fb9060
+[2020-01-20T04:19:52+00:00] INFO: Running start handlers
+[2020-01-20T04:19:52+00:00] INFO: Start handlers complete.
+[2020-01-20T04:19:53+00:00] INFO: Loading cookbooks [gitlab@0.0.1, package@0.1.0, postgresql@0.1.0, redis@0.1.0, monitoring@0.1.0, registry@0.1.0, mattermost@0.1.0, consul@0.1.0, gitaly@0.1.0, praefect@0.1.0, letsencrypt@0.1.0, nginx@0.1.0, runit@4.3.0, acme@4.0.0, crond@0.1.0]
+[2020-01-20T04:19:56+00:00] INFO: Skipped selecting an init system because it was explicitly disabled
+[2020-01-20T04:19:57+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2020-01-20T04:19:57+00:00] INFO: directory[Create /var/log/gitlab] owner changed to 0
+[2020-01-20T04:19:57+00:00] INFO: template[/var/opt/gitlab/.gitconfig] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/.gitconfig.chef-20200120041957.441311
+[2020-01-20T04:19:57+00:00] INFO: template[/var/opt/gitlab/.gitconfig] updated file contents /var/opt/gitlab/.gitconfig
+[2020-01-20T04:19:57+00:00] INFO: template[/var/opt/gitlab/gitlab-shell/config.yml] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/gitlab-shell/config.yml.chef-20200120041957.527343
+[2020-01-20T04:19:57+00:00] INFO: template[/var/opt/gitlab/gitlab-shell/config.yml] updated file contents /var/opt/gitlab/gitlab-shell/config.yml
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/database.yml] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/gitlab-rails/etc/database.yml.chef-20200120041958.431659
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/database.yml] updated file contents /var/opt/gitlab/gitlab-rails/etc/database.yml
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/database.yml] group changed to 998
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/database.yml] mode changed to 640
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab.yml] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/gitlab-rails/etc/gitlab.yml.chef-20200120041958.513579
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab.yml] updated file contents /var/opt/gitlab/gitlab-rails/etc/gitlab.yml
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab.yml] group changed to 998
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab.yml] mode changed to 640
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/rack_attack.rb] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/gitlab-rails/etc/rack_attack.rb.chef-20200120041958.535393
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/rack_attack.rb] updated file contents /var/opt/gitlab/gitlab-rails/etc/rack_attack.rb
+[2020-01-20T04:19:58+00:00] WARN: only_if block for templatesymlink[Create a gitlab_pages_secret and create a symlink to Rails root] returned a string, did you mean to run a command?
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab_pages_secret] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/gitlab-rails/etc/gitlab_pages_secret.chef-20200120041958.560755
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab_pages_secret] updated file contents /var/opt/gitlab/gitlab-rails/etc/gitlab_pages_secret
+[2020-01-20T04:19:58+00:00] INFO: remote_file[/var/opt/gitlab/gitlab-rails/VERSION] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/gitlab-rails/VERSION.chef-20200120041958.609738
+[2020-01-20T04:19:58+00:00] INFO: remote_file[/var/opt/gitlab/gitlab-rails/VERSION] updated file contents /var/opt/gitlab/gitlab-rails/VERSION
+[2020-01-20T04:19:58+00:00] INFO: remote_file[/var/opt/gitlab/gitlab-rails/REVISION] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/gitlab-rails/REVISION.chef-20200120041958.614779
+[2020-01-20T04:19:58+00:00] INFO: remote_file[/var/opt/gitlab/gitlab-rails/REVISION] updated file contents /var/opt/gitlab/gitlab-rails/REVISION
+[2020-01-20T04:19:58+00:00] INFO: file[/var/opt/gitlab/gitlab-rails/RUBY_VERSION] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/gitlab-rails/RUBY_VERSION.chef-20200120041958.619259
+[2020-01-20T04:19:58+00:00] INFO: file[/var/opt/gitlab/gitlab-rails/RUBY_VERSION] updated file contents /var/opt/gitlab/gitlab-rails/RUBY_VERSION
+[2020-01-20T04:19:58+00:00] INFO: ruby_block[Move existing certs and link to /opt/gitlab/embedded/ssl/certs] called
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/redis/redis.conf] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/redis/redis.conf.chef-20200120041958.784331
+[2020-01-20T04:19:58+00:00] INFO: template[/var/opt/gitlab/redis/redis.conf] updated file contents /var/opt/gitlab/redis/redis.conf
+[2020-01-20T04:19:58+00:00] INFO: link[/opt/gitlab/service/redis] created
+[2020-01-20T04:19:58+00:00] INFO: link[/opt/gitlab/service/gitaly] created
+[2020-01-20T04:19:59+00:00] INFO: template[/var/opt/gitlab/postgresql/data/runtime.conf] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/postgresql/data/runtime.conf.chef-20200120041959.060704
+[2020-01-20T04:19:59+00:00] INFO: template[/var/opt/gitlab/postgresql/data/runtime.conf] updated file contents /var/opt/gitlab/postgresql/data/runtime.conf
+[2020-01-20T04:19:59+00:00] INFO: link[/opt/gitlab/service/postgresql] created
+[2020-01-20T04:19:59+00:00] INFO: file[/opt/gitlab/sv/postgresql/supervise/status] owner changed to 996
+[2020-01-20T04:19:59+00:00] INFO: file[/opt/gitlab/sv/postgresql/supervise/status] group changed to 996
+[2020-01-20T04:19:59+00:00] INFO: file[/opt/gitlab/sv/postgresql/supervise/status] updated atime and mtime to 2020-01-20 04:19:59 +0000
+[2020-01-20T04:19:59+00:00] INFO: bash[set ownership of old migration log files] ran successfully
+[2020-01-20T04:19:59+00:00] INFO: runit_service[unicorn] running why-run enable action to support before action
+[2020-01-20T04:19:59+00:00] INFO: runit_service[unicorn] sending stop action to service[puma] (before)
+[2020-01-20T04:19:59+00:00] INFO: link[/opt/gitlab/service/unicorn] created
+[2020-01-20T04:19:59+00:00] INFO: link[/opt/gitlab/service/sidekiq] created
+[2020-01-20T04:19:59+00:00] INFO: link[/opt/gitlab/service/gitlab-workhorse] created
+[2020-01-20T04:19:59+00:00] INFO: link[/opt/gitlab/service/nginx] created
+[2020-01-20T04:19:59+00:00] INFO: link[/opt/gitlab/service/logrotate] created
+[2020-01-20T04:19:59+00:00] INFO: link[/opt/gitlab/service/gitlab-exporter] created
+[2020-01-20T04:19:59+00:00] INFO: link[/opt/gitlab/service/redis-exporter] created
+[2020-01-20T04:20:00+00:00] INFO: link[/opt/gitlab/service/prometheus] created
+[2020-01-20T04:20:00+00:00] INFO: link[/opt/gitlab/service/alertmanager] created
+[2020-01-20T04:20:00+00:00] INFO: link[/opt/gitlab/service/postgres-exporter] created
+[2020-01-20T04:20:00+00:00] WARN: Connecting to GitLab to generate new app_id and app_secret for GitLab Grafana.
+[2020-01-20T04:23:00+00:00] INFO: Updated the gitlab-secrets.json file.
+[2020-01-20T04:23:00+00:00] INFO: ruby_block[authorize Grafana with GitLab] called
+[2020-01-20T04:23:01+00:00] INFO: ruby_block[populate Grafana configuration options] called
+[2020-01-20T04:23:02+00:00] INFO: template[/var/opt/gitlab/grafana/grafana.ini] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/grafana/grafana.ini.chef-20200120042302.919678
+[2020-01-20T04:23:02+00:00] INFO: template[/var/opt/gitlab/grafana/grafana.ini] updated file contents /var/opt/gitlab/grafana/grafana.ini
+[2020-01-20T04:23:03+00:00] INFO: link[/opt/gitlab/service/grafana] created
+[2020-01-20T04:23:03+00:00] INFO: templatesymlink[Create a gitlab.yml and create a symlink to Rails root] sending run action to execute[clear the gitlab-rails cache] (delayed)

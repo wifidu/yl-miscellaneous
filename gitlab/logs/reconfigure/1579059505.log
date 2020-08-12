@@ -1,0 +1,9 @@
+# Logfile created on 2020-01-15 03:38:25 +0000 by logger.rb/56438
+[2020-01-15T03:38:25+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /opt/gitlab/embedded
+  One version per cookbook
+
+[2020-01-15T03:38:25+00:00] WARN: Chef client 32 is running, will wait for it to finish and then run.
+[2020-01-15T03:38:32+00:00] INFO: *** Chef 13.6.4 ***
+[2020-01-15T03:38:32+00:00] INFO: Platform: x86_64-linux
+[2020-01-15T03:38:32+00:00] INFO: Chef-client pid: 468
+[2020-01-15T03:38:32+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...

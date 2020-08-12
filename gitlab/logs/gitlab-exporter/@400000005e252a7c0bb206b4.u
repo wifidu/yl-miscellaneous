@@ -1,0 +1,11 @@
+2020-01-15_03:01:25.16620 == Sinatra (v2.0.7) has taken the stage on 9168 for development with backup from Puma
+2020-01-15_03:01:25.16658 Puma starting in single mode...
+2020-01-15_03:01:25.16927 * Version 4.3.1.gitlab.2 (ruby 2.6.3-p62), codename: Mysterious Traveller
+2020-01-15_03:01:25.16930 * Min threads: 0, max threads: 16
+2020-01-15_03:01:25.16933 * Environment: development
+2020-01-15_03:01:25.16974 * Listening on tcp://127.0.0.1:9168
+2020-01-15_03:01:25.16984 Use Ctrl-C to stop
+2020-01-15_03:33:26.85800 - Gracefully stopping, waiting for requests to finish
+2020-01-15_03:33:26.86052 === puma shutdown: 2020-01-15 03:33:26 +0000 ===
+2020-01-15_03:33:26.86053 - Goodbye!
+2020-01-15_03:33:26.86054 == Sinatra has ended his set (crowd applauds)

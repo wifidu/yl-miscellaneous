@@ -1,0 +1,5 @@
+{"build_time":"20191220.194021","level":"info","msg":"Starting","time":"2020-01-14T12:46:54Z","version":"v8.18.0"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2020-01-14T12:46:54Z"}
+{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2020-01-14T12:46:54Z"}
+{"correlation_id":"JUv8XziA5Aa","duration_ms":1,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"error","time":"2020-01-14T12:47:35Z","uri":"/help"}
+{"correlation_id":"JUv8XziA5Aa","duration_ms":8,"host":"localhost","level":"info","method":"GET","msg":"access","proto":"HTTP/1.1","referrer":"","remote_addr":"127.0.0.1:0","remote_ip":"127.0.0.1","status":502,"system":"http","time":"2020-01-14T12:47:35Z","uri":"/help","user_agent":"curl/7.59.0-DEV","written_bytes":2940}

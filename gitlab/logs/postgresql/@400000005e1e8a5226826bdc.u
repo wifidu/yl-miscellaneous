@@ -1,0 +1,54 @@
+2020-01-15_03:42:31.05015 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:31.05021 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:31.05021 HINT:  You might need to initdb.
+2020-01-15_03:42:32.06404 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:32.06406 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:32.06406 HINT:  You might need to initdb.
+2020-01-15_03:42:33.07793 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:33.07794 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:33.07795 HINT:  You might need to initdb.
+2020-01-15_03:42:34.09154 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:34.09157 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:34.09157 HINT:  You might need to initdb.
+2020-01-15_03:42:35.10132 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:35.10134 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:35.10134 HINT:  You might need to initdb.
+2020-01-15_03:42:36.11742 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:36.11745 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:36.11745 HINT:  You might need to initdb.
+2020-01-15_03:42:37.12852 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:37.12853 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:37.12853 HINT:  You might need to initdb.
+2020-01-15_03:42:38.13980 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:38.13982 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:38.13982 HINT:  You might need to initdb.
+2020-01-15_03:42:39.15163 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:39.15165 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:39.15165 HINT:  You might need to initdb.
+2020-01-15_03:42:40.16408 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:40.16410 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:40.16410 HINT:  You might need to initdb.
+2020-01-15_03:42:41.17607 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:41.17609 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:41.17609 HINT:  You might need to initdb.
+2020-01-15_03:42:42.19124 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:42.19126 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:42.19126 HINT:  You might need to initdb.
+2020-01-15_03:42:43.20080 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:43.20082 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:43.20082 HINT:  You might need to initdb.
+2020-01-15_03:42:44.21263 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:44.21265 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:44.21265 HINT:  You might need to initdb.
+2020-01-15_03:42:45.22869 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:45.22871 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:45.22872 HINT:  You might need to initdb.
+2020-01-15_03:42:46.23638 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:46.23641 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:46.23641 HINT:  You might need to initdb.
+2020-01-15_03:42:47.25205 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:47.25207 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:47.25207 HINT:  You might need to initdb.
+2020-01-15_03:42:48.26530 FATAL:  "/var/opt/gitlab/postgresql/data" is not a valid data directory
+2020-01-15_03:42:48.26531 DETAIL:  File "/var/opt/gitlab/postgresql/data/PG_VERSION" does not contain valid data.
+2020-01-15_03:42:48.26532 HINT:  You might need to initdb.

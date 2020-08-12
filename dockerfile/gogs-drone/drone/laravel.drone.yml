@@ -1,0 +1,61 @@
+pipeline:
+  # load cache
+  load-composer-cache:
+    image: drillster/drone-volume-cache
+    restore: true
+    mount:
+      - ./vendor
+    volumes:
+      # Mount the cache volume, needs "Trusted" | https://docs.drone.io/administration/user/admins/
+      # DRONE_USER_CREATE=username:{alicfeng},admin:true
+      # source path {/tmp/cache/composer need to mkdir on server}
+      - /tmp/cache/composer:/cache
+
+  # case test
+  build-tests:
+    image: lorisleiva/laravel-docker:7.3
+    commands:
+      - mv $(pwd)/.env.drone $(pwd)/.env
+      - composer install -vvv
+      - ./vendor/phpunit/phpunit/phpunit
+
+  # rebuild compose cache
+  rebuild-composer-cache:
+    image: drillster/drone-volume-cache
+    rebuild: true
+    mount:
+      - ./vendor
+    volumes:
+      - /tmp/cache/composer:/cache
+
+  # deploy on dev env
+  deploy-dev:
+    image: appleboy/drone-ssh
+    host: {$host}
+    username: {$username}
+    password: {$password}
+    port: {$port}
+    command_timeout: 30000s
+    script:
+      - cd /www/api.yi-insurance.com
+      - git pull
+      - /home/service/php/bin/php artisan config:cache
+      - /home/service/php/bin/php artisan route:cache
+      - /home/service/php/bin/php artisan optimize
+      - supervisorctl reload
+    when:
+      event:
+        - push
+      branch:
+        - master
+
+  # notify by email
+  notify:
+    image: drillster/drone-email
+    from: {email}
+    host: {smtp.163.com}
+    username: {email}
+    password: {password}
+    port: 465
+    recipients:
+    - {a@samego.com}

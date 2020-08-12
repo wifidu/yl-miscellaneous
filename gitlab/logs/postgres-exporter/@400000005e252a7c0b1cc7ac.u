@@ -1,0 +1,6 @@
+2020-01-15_03:01:43.61520 time="2020-01-15T03:01:43Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:777"
+2020-01-15_03:01:43.68307 time="2020-01-15T03:01:43Z" level=info msg="Semantic Version Changed on \"/var/opt/gitlab/postgresql:5432\": 0.0.0 -> 10.9.0" source="postgres_exporter.go:1229"
+2020-01-15_03:01:43.79813 time="2020-01-15T03:01:43Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1437"
+2020-01-15_03:17:12.65306 time="2020-01-15T03:17:12Z" level=info msg="Established new database connection to \"/var/opt/gitlab/postgresql:5432\"." source="postgres_exporter.go:777"
+2020-01-15_03:17:12.68917 time="2020-01-15T03:17:12Z" level=info msg="Semantic Version Changed on \"/var/opt/gitlab/postgresql:5432\": 0.0.0 -> 10.9.0" source="postgres_exporter.go:1229"
+2020-01-15_03:17:12.81471 time="2020-01-15T03:17:12Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1437"

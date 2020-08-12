@@ -1,0 +1,85 @@
+2020-01-14_05:23:44.28604 == Sinatra (v2.0.7) has taken the stage on 9168 for development with backup from Puma
+2020-01-14_05:23:44.28609 Puma starting in single mode...
+2020-01-14_05:23:44.28610 * Version 4.3.1.gitlab.2 (ruby 2.6.3-p62), codename: Mysterious Traveller
+2020-01-14_05:23:44.28610 * Min threads: 0, max threads: 16
+2020-01-14_05:23:44.28610 * Environment: development
+2020-01-14_05:23:44.28610 * Listening on tcp://127.0.0.1:9168
+2020-01-14_05:23:44.28610 Use Ctrl-C to stop
+2020-01-14_05:31:29.93845 - Gracefully stopping, waiting for requests to finish
+2020-01-14_05:31:29.94083 === puma shutdown: 2020-01-14 05:31:29 +0000 ===
+2020-01-14_05:31:29.94084 - Goodbye!
+2020-01-14_05:31:29.94084 == Sinatra has ended his set (crowd applauds)
+2020-01-14_05:31:33.15977 == Sinatra (v2.0.7) has taken the stage on 9168 for development with backup from Puma
+2020-01-14_05:31:33.16266 Puma starting in single mode...
+2020-01-14_05:31:33.16645 * Version 4.3.1.gitlab.2 (ruby 2.6.3-p62), codename: Mysterious Traveller
+2020-01-14_05:31:33.16648 * Min threads: 0, max threads: 16
+2020-01-14_05:31:33.16651 * Environment: development
+2020-01-14_05:31:33.16690 * Listening on tcp://127.0.0.1:9168
+2020-01-14_05:31:33.16700 Use Ctrl-C to stop
+2020-01-14_05:35:00.63885 2020-01-14 05:35:00 - PG::QueryCanceled - ERROR:  canceling statement due to statement timeout
+2020-01-14_05:35:00.71187 :
+2020-01-14_05:35:00.71196 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/database/row_count.rb:122:in `async_exec'
+2020-01-14_05:35:00.71196 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/database/row_count.rb:122:in `block in execute'
+2020-01-14_05:35:00.71196 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/database/base.rb:34:in `block in with_connection_pool'
+2020-01-14_05:35:00.71196 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:65:in `block (2 levels) in with'
+2020-01-14_05:35:00.71197 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:64:in `handle_interrupt'
+2020-01-14_05:35:00.71223 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:64:in `block in with'
+2020-01-14_05:35:00.71223 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:61:in `handle_interrupt'
+2020-01-14_05:35:00.71223 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/connection_pool-2.2.2/lib/connection_pool.rb:61:in `with'
+2020-01-14_05:35:00.71225 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/database/base.rb:32:in `with_connection_pool'
+2020-01-14_05:35:00.71225 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/database/row_count.rb:121:in `execute'
+2020-01-14_05:35:00.71225 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/database/row_count.rb:107:in `count_from_query_hash'
+2020-01-14_05:35:00.71225 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/database/row_count.rb:98:in `block in run'
+2020-01-14_05:35:00.71226 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/database/row_count.rb:94:in `each'
+2020-01-14_05:35:00.71226 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/database/row_count.rb:94:in `run'
+2020-01-14_05:35:00.71226 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/database/row_count.rb:148:in `probe_db'
+2020-01-14_05:35:00.71226 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/prober.rb:17:in `block (3 levels) in probe_all'
+2020-01-14_05:35:00.71227 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/prober.rb:16:in `each'
+2020-01-14_05:35:00.71227 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/prober.rb:16:in `block (2 levels) in probe_all'
+2020-01-14_05:35:00.71228 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/prober.rb:14:in `each'
+2020-01-14_05:35:00.71228 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/prober.rb:14:in `block in probe_all'
+2020-01-14_05:35:00.71228 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/prober.rb:13:in `each'
+2020-01-14_05:35:00.71228 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/prober.rb:13:in `probe_all'
+2020-01-14_05:35:00.71229 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/web_exporter.rb:67:in `block (2 levels) in setup_probes'
+2020-01-14_05:35:00.71229 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1635:in `call'
+2020-01-14_05:35:00.71229 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1635:in `block in compile!'
+2020-01-14_05:35:00.71230 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:987:in `block (3 levels) in route!'
+2020-01-14_05:35:00.71230 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1006:in `route_eval'
+2020-01-14_05:35:00.71230 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:987:in `block (2 levels) in route!'
+2020-01-14_05:35:00.71231 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1035:in `block in process_route'
+2020-01-14_05:35:00.71231 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1033:in `catch'
+2020-01-14_05:35:00.71231 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1033:in `process_route'
+2020-01-14_05:35:00.71231 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:985:in `block in route!'
+2020-01-14_05:35:00.71232 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:984:in `each'
+2020-01-14_05:35:00.71232 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:984:in `route!'
+2020-01-14_05:35:00.71232 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1097:in `block in dispatch!'
+2020-01-14_05:35:00.71233 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1071:in `block in invoke'
+2020-01-14_05:35:00.71233 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1071:in `catch'
+2020-01-14_05:35:00.71233 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1071:in `invoke'
+2020-01-14_05:35:00.71233 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1094:in `dispatch!'
+2020-01-14_05:35:00.71233 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:919:in `block in call!'
+2020-01-14_05:35:00.71233 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1071:in `block in invoke'
+2020-01-14_05:35:00.71234 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1071:in `catch'
+2020-01-14_05:35:00.71234 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1071:in `invoke'
+2020-01-14_05:35:00.71234 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:919:in `call!'
+2020-01-14_05:35:00.71235 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:908:in `call'
+2020-01-14_05:35:00.71235 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-exporter-5.0.0/lib/gitlab_exporter/web_exporter.rb:21:in `call'
+2020-01-14_05:35:00.71235 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/rack-protection-2.0.7/lib/rack/protection/xss_header.rb:18:in `call'
+2020-01-14_05:35:00.71235 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/rack-protection-2.0.7/lib/rack/protection/path_traversal.rb:16:in `call'
+2020-01-14_05:35:00.71235 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/rack-protection-2.0.7/lib/rack/protection/json_csrf.rb:26:in `call'
+2020-01-14_05:35:00.71236 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/rack-protection-2.0.7/lib/rack/protection/base.rb:50:in `call'
+2020-01-14_05:35:00.71237 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/rack-protection-2.0.7/lib/rack/protection/base.rb:50:in `call'
+2020-01-14_05:35:00.71237 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/rack-protection-2.0.7/lib/rack/protection/frame_options.rb:31:in `call'
+2020-01-14_05:35:00.71237 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/rack-2.0.8/lib/rack/null_logger.rb:9:in `call'
+2020-01-14_05:35:00.71238 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/rack-2.0.8/lib/rack/head.rb:12:in `call'
+2020-01-14_05:35:00.71238 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/show_exceptions.rb:22:in `call'
+2020-01-14_05:35:00.71238 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:194:in `call'
+2020-01-14_05:35:00.71238 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1950:in `call'
+2020-01-14_05:35:00.71238 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1502:in `block in call'
+2020-01-14_05:35:00.71238 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1729:in `synchronize'
+2020-01-14_05:35:00.71239 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/sinatra-2.0.7/lib/sinatra/base.rb:1502:in `call'
+2020-01-14_05:35:00.71239 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.1.gitlab.2/lib/puma/configuration.rb:228:in `call'
+2020-01-14_05:35:00.71239 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.1.gitlab.2/lib/puma/server.rb:690:in `handle_request'
+2020-01-14_05:35:00.71239 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.1.gitlab.2/lib/puma/server.rb:481:in `process_client'
+2020-01-14_05:35:00.71240 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.1.gitlab.2/lib/puma/server.rb:335:in `block in run'
+2020-01-14_05:35:00.71240 	/opt/gitlab/embedded/lib/ruby/gems/2.6.0/gems/gitlab-puma-4.3.1.gitlab.2/lib/puma/thread_pool.rb:138:in `block in spawn_thread'

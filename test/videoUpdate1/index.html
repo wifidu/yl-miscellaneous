@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <title>Document</title>
+
+  <script src="js/flexible.js"></script>
+  <!-- video 引入 -->
+  <link rel="stylesheet" href="css/video.css">
+  <link rel="stylesheet" href="css/zy.media.min.css" />
+
+  <!-- 弹窗引入 -->
+  <link rel="stylesheet" href="css/component.css">
+
+  <!-- index css -->
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+
+  
+
+  <!-- 安装游戏拉出框 -->
+  <a  class="start-game-btn" style="font-size: .5rem">开始游戏</a>
+
+
+
+  <a class="comp-download-btn" style="font-size: .5rem">load</a>
+  <a  class="comp-video-play" style="font-size: .5rem">play</a>
+
+
+
+
+  <img class="send-charge" src="images/comp/send_charge.gif" alt="">
+  <div id="send-charge">
+    <svg t="1567059079714" class="close-send-charge" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2301" width="70" height="70">
+      <path d="M511.976449 456.520615 317.702097 262.207353 262.162812 317.747662 456.438188 512.060924 
+      262.162812 706.382378 317.702097 761.77524 511.976449 567.453786 706.267185 761.77524 761.805446 
+      706.382378 567.515735 512.060924 761.805446 317.747662 706.267185 262.207353Z" p-id="2302" fill="#ffffff">
+    </path></svg>
+    <img src="images/comp/get_charge.png" alt="">
+  </div>
+
+
+
+
+
+
+
+  <!-- android 引导 -->
+
+
+  <!-- video start -->
+ 
+
+  <div class="component-video-shade">
+    <svg t="1566897969136" class="component-video-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1108" width="200" height="200"><path d="M638.2 272.5H400.5V155c0-12.1-12.9-19.9-23.6-14.3l-304 158.9c-11.7 6.1-11.5 22.8 0.3 28.7l304 151.9c10.7 5.4 23.3-2.4 23.3-14.4V347.7h237.8c135.4 0 245.5 103.6 245.5 231s-110.1 231-245.5 231h-489c-20.8 0-37.6 16.8-37.6 37.6s16.8 37.6 37.6 37.6h489c176.8 0 320.6-137.3 320.6-306.2 0-168.8-143.9-306.2-320.7-306.2z" p-id="1109" fill="#ffffff"></path></svg>
+    <span>点击退出</span>
+  </div>
+  <div id="media">
+    <div class="video zy_media">
+      <video data-config='{"mediaTitle": "视频名称"}' id='video-style'>
+          <source src=""  type="video/mp4" />
+          您的浏览器不支持HTML5视频
+      </video>
+    </div>
+  </div> 
+
+
+<!-- video end -->
+
+<!-- 公用遮罩 -->
+<div class="component-shade"></div>
+
+<!-- 开始游戏拉出框 -->
+<div class="component-start-game">
+  <p>取消</p>
+  <p>使用小7手游app下载</p>
+  <p>老虎下山</p>
+  <p>可享充值<b>5.0折</b></p>
+  <a class="component-btn">立即安装</a>
+</div>
+
+<!-- ios WX -->
+<!-- 微信弹窗 && facebook进入 -->
+<div id="component-wx-open">
+  <img src="" alt="">
+</div>
+
+
+<!-- 企业签 -->
+<!-- ios 引导 -->
+
+<!-- ios-copy -->
+<div class="component-guide-box component-ios-copy">
+  <p class="component-guide-sub">
+    <span>取消</span>
+  </p>
+  <div class="component-guide-content">
+    <p><img class="safari" src="images/comp/safari.png" alt=""></p>
+    <p class="safari-copy">请复制下方链接，在safari中打开</p>
+    <div class="copy-content">
+      <p>由于www.baidu.com/sdasdadsdadsdad</p>
+      <span class="copy-btn">复制</span>
+    </div>
+    <!-- 复制成功提示 -->
+    <div class="copy-suc">复制成功</div>
+  </div>
+</div>
+
+<!-- ios-issafari -->
+<div class="component-guide-box component-safari is-safari">
+  <p class="component-guide-sub">
+      <span>取消</span>
+    </p>
+    <div class="component-guide-content">
+      <p>确定小7手游下载完成？</p>
+      <p>下载进度请返回桌面查看</p>
+      <p>“未受信任的企业级开发者”解决方式如下：</p>
+      <img src="images/comp/simplifie_font.gif" alt="">
+    </div>
+    <a class="component-btn next"><b>（此处间隔时间js设置）</b>秒后继续</a>
+    <a class="component-btn load-next">下载完成前往信任 ></a>
+</div>
+
+<!-- ios-nosafari -->
+<div class="component-guide-box component-safari no-safari">
+  <p class="component-guide-sub">
+      <span>取消</span>
+    </p>
+    <div class="component-guide-content">
+      <p>确定小7手游下载完成？</p>
+      <p>下载进度请返回桌面查看</p>
+      <p>“未受信任的企业级开发者”解决方式如下：</p>
+      <img src="images/comp/simplifie_font.gif" alt="">
+    </div>
+    <a class="component-btn">手动前往信任 ></a>
+     <!-- 手动提示 -->
+   <div class="copy-suc">非Safari浏览器请按动图步骤前往信任</div>
+</div>
+
+<!-- 企业签结束 -->
+
+<!-- 个人签 -->
+
+<!-- 个人签下载引导 -->
+
+<div class="component-guide-box personal-guide">
+<p class="component-guide-sub">
+    <a> <img src="images/comp/kf.png" alt=""> 联系客服</a>
+    <span>取消</span>
+  </p>
+  <div class="component-guide-content">
+    <p>安装时<span>点击“允许”</span>，<span>切勿点击“忽略”</span></p>
+    <a class="component-btn">安装小7手游</a>
+  </div>
+  <a class="comp-video-play"><img src="images/comp/watch-coin.png" alt=""> 观看安装视频教程</a>
+</div>
+
+
+
+
+<!-- 下载描述文件 -->
+<!-- <div class="component-guide-box ios-sec-download ios-click-download">
+  <p class="component-guide-sub">
+    <span>取消</span>
+  </p>
+  <div class="component-guide-content">
+    <p><span>1</span>下载描述文件</p>
+    <p>安装描述文件后即可安装小7</p>
+  </div>
+  <a class="component-btn">点击下载</a>
+</div> -->
+
+<!-- 安装描述文件 -->
+<!-- <div class="component-guide-box ios-sec-download ios-click-install">
+    <p class="component-guide-sub">
+      <span>取消</span>
+    </p>
+    <div class="component-guide-content">
+      <p><span>2</span>安装描述文件</p>
+      <p>安装描述文件后即可安装小7</p>
+    </div>
+    <a class="component-btn">点击安装</a>
+    <a class="check-file">点击查看如何安装描述文件</a>
+  </div> -->
+
+<!-- 点击如何安装跳转 -->
+<div class="component-guide-box install-describe">
+  <p class="component-guide-sub">
+    <span>取消</span>
+  </p>
+  <div class="component-guide-content">
+    <img src="images/comp/scribe-file.png" alt="">
+    <p>1.在步骤2中点击安装，或在系统设置中进入【通用】-【描述文件】</p>
+    <p>2.找到描述文件【小7手游】，点击进入并进行安装</p>
+    <p>3.安装时需输入锁屏密码，请放心输入</p>
+    <p>4.如未找到描述文件【小7手游】，请等候数秒，或重新下载</p>
+  </div>
+  <a class="component-btn">我知道了</a>
+</div>
+
+<!-- 装备安装包 -->
+<div class="component-guide-box ready-install-packge">
+  <p class="component-guide-sub">
+    <span>取消</span>
+  </p>
+  <div class="component-guide-content">
+    <p>正在准备安装包，预计还有<span>18</span>秒</p>
+    <img src="images/comp/download_loading.gif" alt="">
+    <p>UDID:00008020-001904C41442002E</p>
+  </div>
+</div>
+
+<!-- 安装中 -->
+<div class="component-guide-box install-packge-loading">
+  <p class="component-guide-sub">
+      <!-- <span>取消</span> -->
+  </p>
+  <div class="component-guide-content">
+    <p>安装中......</p>
+    <p>返回桌面查看安装进度</p>
+  </div>
+  <a class="component-btn">我知道了</a>
+  <p>UDID:00008020-001904C41442002E</p>
+</div>
+
+<!-- 准备安装包超时 -->
+<div class="component-guide-box install-timeout">
+  <p class="component-guide-sub">
+    <span>取消</span>
+  </p>
+  <div class="component-guide-content">
+    <p>很抱歉，安装包准备超时</p>
+  </div>
+  <a class="component-btn">点击重试</a>
+</div>
+
+<!-- safari 无痕模式 -->
+<div class="component-guide-box incognito-mode">
+  <p class="component-guide-sub">
+    <span>取消</span>
+  </p>
+  <div class="component-guide-content">
+    <p>safari无痕浏览模式无法正常安装，请切换到非无痕浏览模式进行安装</p>
+    <p>关闭方法：点击浏览器右下角分页图标--然后点击左下角取消无痕浏览</p>
+  </div>
+  <a class="component-btn">复制地址</a>
+   <!-- 复制成功提示 -->
+   <div class="copy-suc">复制成功</div>
+</div>
+
+<!-- 个人签结束 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/videoSource.js"></script>
+    <!-- video 引入 -->
+    <!-- <script src="js/zy.media.min.js"></script> -->
+    <script src="js/video.js"></script>
+    <!--  -->
+    <script src="js/component.js"></script>
+
+    <script>
+      var videoType = document.querySelector('.video')
+      var allVideoBtn = document.querySelectorAll('.comp-video-play')
+      for(var i = 0; i < allVideoBtn.length; i++) {
+        videoStyle(allVideoBtn[i])
+      }
+      function videoStyle(btn) {
+       btn.addEventListener('click', function() {
+         setTimeout(() => {
+          videoType.style.height = '200px !important'
+         }, 200);
+        videoType.style.zIndex = 1003
+       })
+      }
+    </script>
+    
+  
+</body>
+</html>
